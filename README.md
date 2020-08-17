@@ -18,7 +18,7 @@ $ python3 -m venv venv && source env/bin/activate
 
 #### Install required Python packages
 ```bash
-$ pip install flask jinja2 python_json_config zeep celery
+$ pip install flask jinja2 python_json_config zeep flask_apscheduler
 ```
 
 #### Configure application with config.json
