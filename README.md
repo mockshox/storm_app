@@ -11,6 +11,16 @@ The app is powered by [burze.dzis.net](http://burze.dzis.net) WSDL API.
 $ git clone https://github.com/mockshox/storm_app.git
 ```
 
+#### Setup Python virtual environment
+```bash
+$ python3 -m venv venv && source env/bin/activate
+```
+
+#### Install required Python packages
+```bash
+$ pip install flask jinja2 python_json_config zeep celery
+```
+
 #### Configure application with config.json
 Example configuration
 ```json
