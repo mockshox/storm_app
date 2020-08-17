@@ -22,3 +22,7 @@ def update_storm_info():
 @app.route('/')
 def storm_app():
     return render_template('app.html.j2', is_storm_in_location=app.is_storm)
+
+
+if __name__ == '__main__':
+  app.run(host='0.0.0.0', port=80)
