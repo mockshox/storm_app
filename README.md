@@ -27,7 +27,7 @@ Example configuration
 {
     "wsdl_file": "https://burze.dzis.net/soap.php?WSDL",
     "city": "Wrocław",
-    "range_detect": 1
+    "range_detect": 3
 }
 ```
 
