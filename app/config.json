@@ -1,5 +1,5 @@
 {
     "wsdl_file": "https://burze.dzis.net/soap.php?WSDL",
     "city": "Wrocław",
-    "range_detect": 3
+    "range_detect": 2
 }

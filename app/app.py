@@ -14,11 +14,11 @@ scheduler.init_app(app)
 scheduler.start()
 
 @scheduler.task('interval', id='update', seconds=60, misfire_grace_time=900)
+@app.before_first_request
 def update_storm_info():
     app.is_storm = storm_info.is_storm_in_location(app)
 
 
 @app.route('/')
 def storm_app():
-    update_storm_info()
     return render_template('app.html.j2', is_storm_in_location=app.is_storm)
