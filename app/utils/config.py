@@ -1,7 +1,5 @@
 from python_json_config import ConfigBuilder
 
-import os
-
 
 def get_config():
     builder = ConfigBuilder()
