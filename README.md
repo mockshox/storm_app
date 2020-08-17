@@ -13,7 +13,7 @@ $ git clone https://github.com/mockshox/storm_app.git
 
 #### Setup Python virtual environment
 ```bash
-$ python3 -m venv venv && source env/bin/activate
+$ python3 -m venv venv && source venv/bin/activate
 ```
 
 #### Install required Python packages
