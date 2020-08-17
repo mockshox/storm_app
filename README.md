@@ -1,6 +1,7 @@
 # Storm Status
 
 Storm Status is a web app that shows current thunderstorm situation for a given city.
+The app is powered by [burze.dzis.net] WSDL API.
 
 ## How to get up and running locally
 
